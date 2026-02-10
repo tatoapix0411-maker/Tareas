@@ -1,0 +1,38 @@
+var Mes = prompt("Â¿Cual es tu mes?");
+var Dia
+
+//Aries 21 al 31 de marzo y 1 al 20
+
+if((Mes == 3) || (Mes== 4) || (Mes == 5) || (Mes == 6) || (Mes == 7) || (Mes == 8) || (Mes == 9) || (Mes == 10) || (Mes == 11) || (Mes == 12) || (Mes == 1) || (Mes == 2)){
+    Dia = prompt("Â¿Cual es tu dÃ­a?")
+    if((Mes == 3 && Dia >= 21 && Dia <= 31) || (Mes == 4 && Dia >= 1 && Dia <= 20)){
+      alert("Tu signo es Aries");
+    }else if((Mes == 4 && Dia >= 21 && Dia <= 31) || (Mes == 5 && Dia >= 1 && Dia <= 20)){
+      alert("Tu signo es Tauro");
+    }else if((Mes == 5 && Dia >= 21 && Dia <= 31) || (Mes == 6 && Dia >= 1 && Dia <= 20)){
+      alert("Tu signo es Geminis"); 
+    }else if((Mes == 6 && Dia >= 21 && Dia <= 31) || (Mes == 7 && Dia >= 1 && Dia <= 22)){
+      alert("Tu signo es Cancer")
+      }else if((Mes == 7 && Dia >= 23 && Dia <= 31) || (Mes == 8 && Dia >= 1 && Dia <= 23)){
+        alert("Tu signo es Leo")
+      }else if((Mes == 8 && Dia >= 24 && Dia <= 31) || (Mes == 9 && Dia>=1 && Dia <= 22)){
+        alert("Tu signo es Virgo")
+      }else if((Mes == 9 && Dia >= 23 && Dia <= 31) || (Mes == 10 && Dia >= 1 && Dia <= 23)){
+      alert("Tu signo es Libra")
+      }else if((Mes == 10 && Dia >= 24 && Dia <= 31) || (Mes == 11 && Dia >= 1 && Dia <= 22)){
+      alert("Tu signo es Escorpio")
+      }else if((Mes == 11 && Dia >= 23 && Dia <= 31) || (Mes == 12 && Dia >= 1 && Dia <= 21)){
+      alert("Tu signo es Sagitario")
+      }else if((Mes == 12 && Dia >= 22 && Dia <= 31) || (Mes == 1 && Dia >= 1 && Dia <= 20)){
+        alert("Tu signo es Capricornio")
+      }else if((Mes == 1 &&  Dia >= 21 && Dia <= 31) || (Mes == 2 && Dia >= 1 && Dia <= 19)){
+      alert("Tu signo es Acuario")
+      }else if((Mes == 2 && Dia >= 20 && Dia <= 31) || (Mes == 3 && Dia >= 1 && Dia <= 20 )){
+        alert("Tu signo es Piscis")
+
+    }else{
+      alert("Eso no es posible");
+    } 
+}else{
+ alert("Eso no es posible")
+}
